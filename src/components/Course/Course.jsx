@@ -1,4 +1,4 @@
-function Course({ course }) {
+function Course({ course, handleSelectCourse }) {
   const { course_name, cover_img, credit, price, details } = course;
   return (
     <div className="p-4 space-y-5">
@@ -12,7 +12,12 @@ function Course({ course }) {
         <p>$ Price: ${price}</p>
         <p>Credit: {credit}hr</p>
       </div>
-      <button className="btn bg-cyan-400 text-white w-full">Select</button>
+      <button
+        onClick={() => handleSelectCourse(course)}
+        className="btn bg-cyan-400 text-white w-full"
+      >
+        Select
+      </button>
     </div>
   );
 }
