@@ -11,7 +11,9 @@ function Cart({ cartObj }) {
         <h5 className="text-xl font-bold">Course Name</h5>
         <ol className="list-decimal">
           {selectedCourses.map((course, i) => (
-            <li key={i}>{course}</li>
+            <li className="ml-4" key={i}>
+              {course}
+            </li>
           ))}
         </ol>
       </div>
