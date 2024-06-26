@@ -10,7 +10,7 @@ function Course({ course, handleSelectCourse }) {
     <div className="p-4 space-y-5">
       <img className="w-full h-80 rounded-lg" src={cover_img} alt="" />
       <h3 className="text-lg font-semibold">{course_name}</h3>
-      <p>
+      <div>
         {!showDetails ? (
           <div>
             {details.slice(0, 30)}...
@@ -32,7 +32,7 @@ function Course({ course, handleSelectCourse }) {
             </span>
           </div>
         )}
-      </p>
+      </div>
       <div className="flex justify-between">
         <p>$ Price: ${price}</p>
         <p>Credit: {credit}hr</p>
