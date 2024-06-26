@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "cover_img": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "course_name": "Introduction to Computer Science",
+    "credit": 4,
+    "price": 100,
+    "details": "A comprehensive introduction to computer science concepts."
+  },
+  {
+    "id": "2",
+    "cover_img": "https://www.freecodecamp.org/news/content/images/size/w2000/2021/03/dsa.png",
+    "course_name": "Data Structures and Algorithms",
+    "credit": 7,
+    "price": 150,
+    "details": "Learn about various data structures and algorithms."
+  },
+  {
+    "id": "3",
+    "cover_img": "https://images.pexels.com/photos/109371/pexels-photo-109371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "course_name": "Web Development",
+    "credit": 6,
+    "price": 120,
+    "details": "Build modern web applications using HTML, CSS, and JavaScript."
+  },
+  {
+    "id": "4",
+    "cover_img": "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "course_name": "Machine Learning",
+    "credit": 8,
+    "price": 200,
+    "details": "An introduction to machine learning concepts and algorithms."
+  },
+  {
+    "id": "5",
+    "cover_img": "https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "course_name": "Database Management Systems",
+    "credit": 5,
+    "price": 140,
+    "details": "Learn about database design and management using SQL."
+  },
+  {
+    "id": "6",
+    "cover_img": "https://www.pexels.com/photo/coding-computer-data-depth-of-field-577585/",
+    "course_name": "Operating Systems",
+    "credit": 9,
+    "price": 180,
+    "details": "Understand the concepts and design of operating systems."
+  },
+  {
+    "id": "7",
+    "cover_img": "https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "course_name": "Computer Networks",
+    "credit": 3,
+    "price": 130,
+    "details": "Study the principles and protocols of computer networking."
+  },
+  {
+    "id": "8",
+    "cover_img": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "course_name": "Artificial Intelligence",
+    "credit": 10,
+    "price": 220,
+    "details": "Explore the fundamentals and applications of artificial intelligence."
+  },
+  {
+    "id": "9",
+    "cover_img": "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "course_name": "Cybersecurity",
+    "credit": 2,
+    "price": 160,
+    "details": "Learn about the methods and practices of securing computer systems."
+  }
+]
