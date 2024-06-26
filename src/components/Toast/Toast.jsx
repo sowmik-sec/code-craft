@@ -1,8 +1,8 @@
-function Toast() {
+function Toast({ text }) {
   return (
     <div className="toast toast-center toast-middle">
       <div className="alert alert-info">
-        <span>Your credit hour has exceeded </span>
+        <span>{text} </span>
       </div>
     </div>
   );
